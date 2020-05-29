@@ -1,1 +1,39 @@
 // Specific CSS for your home-page
+
+body {
+	background-color: #16302B;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-title {
+	width: 40vw;
+	margin-left: 10%;
+}
+
+.recipe-title h1 {
+	color: white;
+	font-size: 150px;
+}
+
+.recipe-title p {
+	color: white;
+	font-size: 50px;
+
+}
+
+.recipe-image img {
+	object-fit: cover;
+	position: center;
+	width: 40vw;
+	height: 70vh;
+	margin-top: 15%;
+	margin-right: 10%;
+}
